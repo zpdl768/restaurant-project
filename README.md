@@ -67,13 +67,13 @@ POS App (Flutter) ──┘        ⇄  Admin Website (HTML/JS)
 ---
 
 ### 2️⃣ Real-Time Crowd Sync Between POS and User App
-👉 [📺 Watch video](https://github.com/user-attachments/assets/fccff311-fba6-43ad-8df6-924420c3b5c2)  
+👉 [📺 Click here to watch the demo](https://github.com/user-attachments/assets/fccff311-fba6-43ad-8df6-924420c3b5c2)  
 > Shows how table occupancy changes in the POS system are synced in real time to the user app, with crowd levels reflected as color-coded markers on the map.
 
 ---
 
 ### 3️⃣ Sending Orders from User App and Responding via POS
-👉 [📺 Watch video](https://github.com/user-attachments/assets/92f16d1c-859c-4028-aaef-83c567a4d040)  
+👉 [📺 Click here to watch the demo](https://github.com/user-attachments/assets/92f16d1c-859c-4028-aaef-83c567a4d040)  
 > Demonstrates how a user selects a restaurant, places an order through the app, and how the restaurant receives and responds to the order via the POS system.
 
 ---
