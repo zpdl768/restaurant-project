@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>식당 정보 등록</title>
+    <link rel="stylesheet" href="storeRegister3styles1.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a href="/" class="logo">QuickOrder</a>
+    </header>
+
+    <div class="register-container">
+        <h1>식당 정보 등록</h1>
+        <form id="storeRegister-form">
+
+            <div class="form-group">
+                <label for="restaurant-name">식당 이름:</label>
+                <div class="input-group">
+                    <input type="text" id="restaurant-name" name="restaurant-name" required>
+                    <button type="button" id="check-restaurantname">확인</button>
+                </div>
+                <span id="restaurantname-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="restaurant-address">식당 주소:</label>
+                <div class="input-group">
+                    <input type="text" id="restaurant-address" name="restaurant-address" required>
+                    <button type="button" id="check-restaurantaddress">확인</button>
+                </div>
+                <span id="restaurantaddress-message"></span>
+            </div>
+
+            <!-- New fields for table counts -->
+            <div class="form-group">
+                <label for="table-1-count">1인용 테이블 개수:</label>
+                <input type="number" id="table-1-count" name="table-1-count" min="0" required>
+            </div>
+
+            <div class="form-group">
+                <label for="table-2-count">2인용 테이블 개수:</label>
+                <input type="number" id="table-2-count" name="table-2-count" min="0" required>
+            </div>
+
+            <div class="form-group">
+                <label for="table-4-count">4인용 테이블 개수:</label>
+                <input type="number" id="table-4-count" name="table-4-count" min="0" required>
+            </div>
+
+            <div class="form-group">
+                <label for="table-8-count">8인용 테이블 개수:</label>
+                <input type="number" id="table-8-count" name="table-8-count" min="0" required>
+            </div>
+
+            <button type="submit">등록</button>
+        </form>
+    </div>
+    <!-- JavaScript 파일 연결 -->
+    <script src="storeRegister3.js"></script>
+</body>
+</html>

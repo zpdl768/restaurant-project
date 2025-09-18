@@ -1,0 +1,149 @@
+/* storeRegister3styles1.css */
+
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    padding-top: 80px;
+}
+
+/* 헤더 스타일 */
+.site-header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.site-header .logo {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* 컨테이너 스타일 */
+.register-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    max-width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 제목 스타일 */
+.register-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+/* 폼 스타일 */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+/* 레이블 스타일 */
+label {
+    font-weight: bold;
+    margin-bottom: 5px; /* 레이블 아래 여백 추가 */
+    align-self: flex-start;
+}
+
+/* 입력 영역 간 간격 추가 */
+.form-group {
+    margin-bottom: 15px; /* 각 입력 그룹 간에 간격 추가 */
+}
+
+/* 입력 필드와 확인 버튼을 한 줄에 배치하기 위한 스타일 */
+.input-group {
+    display: flex;
+    align-items: center;
+    width: 100%; /* 그룹이 전체 너비를 차지하도록 설정 */
+}
+
+.input-group input {
+    flex: 1; /* 입력 필드가 남은 공간을 차지하도록 설정 */
+    margin-right: 10px; /* 입력 필드와 버튼 사이 간격 추가 */
+}
+
+/* 입력 필드 스타일 */
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* 숫자 입력 필드 스타일 */
+input[type="number"] {
+    width: 100%;
+}
+
+/* 버튼 스타일 */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* 확인 버튼 스타일 */
+#check-restaurantname,
+#check-restaurantaddress {
+    width: 60px;
+    background-color: #818482;
+    font-size: 14px;
+    height: 40px;
+    padding: 5px;
+}
+
+/* 버튼 호버 스타일 */
+button:hover {
+    background-color: #0056b3;
+}
+
+#check-restaurantname:hover,
+#check-restaurantaddress:hover {
+    background-color: #0056b3;
+}
+
+/* 등록 버튼 스타일 */
+button[type="submit"] {
+    width: 100%; /* 등록 버튼을 전체 너비로 설정 */
+    max-width: 600px; /* 등록 버튼을 가로로 더 길게 표시하기 위해 최대 너비 설정 */
+    background-color: #007bff;
+    font-size: 16px;
+    padding: 12px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* 메시지 표시 스타일 */
+#restaurantname-message,
+#restaurantaddress-message {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: -10px;
+}
